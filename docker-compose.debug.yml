@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  skillscopilotcodespacesvscode:
+    image: skillscopilotcodespacesvscode
+    build:
+      context: .
+      dockerfile: ./Dockerfile
